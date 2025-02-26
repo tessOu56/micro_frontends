@@ -1,0 +1,20 @@
+{
+  "name": "micro_frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^2.4.2"
+  },
+  "workspaces": ["apps/*", "packages/*"],
+  "packageManager": "pnpm@8.6.0" 
+}
