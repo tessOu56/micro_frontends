@@ -1,0 +1,3 @@
+[submodule "apps/web3/apps/sso-ui"]
+	path = apps/web3/apps/sso-ui
+	url = git@github.com:arwoosa/sso-ui.git
