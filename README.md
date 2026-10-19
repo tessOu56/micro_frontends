@@ -7,7 +7,7 @@ Personal **monorepo lab**: a Vite host plus a shared React UI package. **Not pro
 | Proof | Honest bound |
 |-------|----------------|
 | **Host + package split** | `apps/web3` (Vite + React 19) consumes workspace `@my-org/ui` |
-| **Not federation** | `.gitmodules` is exploration only; current Vite config is **not** Module Federation |
+| **Not federation** | No submodule / Module Federation; `apps/web3` is a Vite host that imports workspace `@my-org/ui` |
 | **Successor** | [nx-playground](https://github.com/tessOu56/nx-playground) (multi-app) and [AI Search Portal](https://github.com/tessOu56/ai-search-portal) |
 
 ## Pieces
