@@ -20,6 +20,8 @@ Personal **monorepo lab**: a Vite host plus a shared React UI package. **Not pro
 
 ## Quick start
 
+Requires **Node 22+** (`.nvmrc`).
+
 ```bash
 pnpm install
 pnpm dev
