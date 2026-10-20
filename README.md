@@ -15,7 +15,7 @@ Personal **monorepo lab**: a Vite host plus a shared React UI package. **Not pro
 | Piece | Role |
 |-------|------|
 | **`apps/web3`** | Vite + React 19 **host** |
-| **`packages/ui`** | Shared **`@my-org/ui`** (workspace protocol) |
+| **`packages/ui`** | Shared **`@my-org/ui`** (Vite lib → `dist/`, workspace protocol) |
 | **Turbo + pnpm** | `turbo run dev/build/test` |
 
 ## Quick start
